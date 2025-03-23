@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fceabb, #776f58);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/*h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #162009;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  font-family: fantasy;
+
+}*/
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #181a03;
+  text-align: center;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 4px;
+  margin: 40px 0;
+}
+
+button#btn-cargar-personajes {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background-color: #161a0273;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button#btn-cargar-personajes:hover {
+  background-color: #2c2a33;
+  transform: scale(1.05);
+}
+
+#personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px;
+}
+
+.personaje-card {
+  background: linear-gradient(135deg, #ffffff, #f5f5f5);
+  border-radius: 15px;
+  width: 260px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.personaje-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.personaje-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.personaje-info {
+  padding: 15px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.personaje-info h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.personaje-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #c0aeae;
+}
+
+.personaje-info p strong {
+  color: #333;
+}
