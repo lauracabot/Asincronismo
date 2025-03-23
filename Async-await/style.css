@@ -1,20 +1,14 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #fceabb, #776f58);
+  /*background: linear-gradient(to right, #bebcb4, #776f58);*/
   margin: 0;
   padding: 0;
   color: #333;
-}
-
-/*h1 {
-  text-align: center;
-  margin-top: 30px;
-  color: #162009;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  font-family: fantasy;
-
-}*/
+  background-image: url('https://th.bing.com/th/id/OIP.PZrNK083zkJa-0_7VV_ZMAHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain');
+  background-size: 125%;
+  }
+  
 h1 {
   font-family: 'Bangers', cursive;
   font-size: 50px;
